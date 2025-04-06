@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MathGame</string>
+
+    <string-array name="difficulty_levels">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string-array name="game_modes">
+        <item>Standard</item>
+        <item>Challenge</item>
+        <!-- Add more if needed -->
+    </string-array>
+</resources>

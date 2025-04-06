@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow -->
+    <item
+        android:left="100dp"
+        android:top="200dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FF000000"/>
+            <corners android:radius="12dp"/> <!-- Increased corner radius -->
+        </shape>
+    </item>
+
+    <!-- Main Button -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FF6A00"/>  <!-- Minecraft orange -->
+            <stroke
+                android:width="1dp"
+                android:color="#CC5500"/>     <!-- Darker border -->
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+</layer-list>
